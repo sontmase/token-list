@@ -1,0 +1,84 @@
+{
+  "name": "Blast Sepolia Tokens",
+  "timestamp": "2024-02-22T16:10:18.339Z",
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 2
+  },
+  "tokens": [
+    {
+      "logoURI": "https://assets.coingecko.com/coins/images/2518/thumb/weth.png?1628852295",
+      "chainId": 168587773,
+      "address": "0x4200000000000000000000000000000000000023",
+      "name": "Wrapped Ether",
+      "symbol": "WETH",
+      "decimals": 18
+    },
+    {
+      "logoURI": "https://assets.coingecko.com/coins/images/1/thumb/bitcoin.png?1696501400",
+      "chainId": 168587773,
+      "address": "0xcF749620571A3920a27CD8Eef17Daa1db7C93c4C",
+      "name": "Test Bitcoin",
+      "symbol": "tBTC",
+      "decimals": 8
+    },
+    {
+      "logoURI": "https://assets.coingecko.com/coins/images/6319/thumb/usdc.png?1696506694",
+      "chainId": 168587773,
+      "address": "0xda9C093a7D9e41d21Dc9A7ff5601A3FD02111d95",
+      "name": "Test USDC",
+      "symbol": "tUSDC",
+      "decimals": 6
+    },
+    {
+      "logoURI": "https://raw.githubusercontent.com/Monoswap-Labs/monoswap-token-list/main/img/blast_sepolia/assets/0xe13521B74b9bdb3B9d476A8EA5D871cb742c1615/logo.png",
+      "chainId": 168587773,
+      "address": "0xa07aC8cDe2a98B189477b8e41F0c2Ea6CdDbC055",
+      "name": "Test Mono",
+      "symbol": "tMONO",
+      "decimals": 18
+    },
+    {
+      "logoURI": "https://raw.githubusercontent.com/Monoswap-Labs/monoswap-token-list/main/img/blast_sepolia/assets/0x09B4a7BFc27Bf2EE18A20F0aBcc2cC648Cdf7578/logo.png",
+      "chainId": 168587773,
+      "address": "0x09B4a7BFc27Bf2EE18A20F0aBcc2cC648Cdf7578",
+      "name": "Test YIELD",
+      "symbol": "tYIELD",
+      "decimals": 18
+    },
+    {
+      "logoURI": "https://raw.githubusercontent.com/Monoswap-Labs/monoswap-token-list/main/img/blast_sepolia/assets/0x64c7309329Ec23Fd4904d8cbe75c39766e03764b/logo.png",
+      "chainId": 168587773,
+      "address": "0x64c7309329Ec23Fd4904d8cbe75c39766e03764b",
+      "name": "NIFTSY",
+      "symbol": "NIFTSY",
+      "decimals": 18
+    },
+    {
+      "logoURI": "https://raw.githubusercontent.com/Monoswap-Labs/monoswap-token-list/main/img/blast_sepolia/assets/0x54D12b155dA569aaEa910A778Eb3EC9cd2B26230/logo.png",
+      "chainId": 168587773,
+      "address": "0x54D12b155dA569aaEa910A778Eb3EC9cd2B26230",
+      "name": "Monoswap USD",
+      "symbol": "MUSD",
+      "decimals": 18
+    },
+    {
+      "logoURI": "https://raw.githubusercontent.com/Monoswap-Labs/monoswap-token-list/main/img/blast_sepolia/assets/0x4200000000000000000000000000000000000022/logo.png",
+      "chainId": 168587773,
+      "address": "0x4200000000000000000000000000000000000022",
+      "name": "Rebasing USD",
+      "symbol": "USDB",
+      "decimals": 18
+    },
+    {
+      "logoURI": "https://raw.githubusercontent.com/Monoswap-Labs/monoswap-token-list/main/img/blast_sepolia/assets/0xC256D404eAaC5bCE4560502Dcf4A924ED9e31c37/logo.png",
+      "chainId": 168587773,
+      "address": "0xC256D404eAaC5bCE4560502Dcf4A924ED9e31c37",
+      "name": "MoonBlast",
+      "symbol": "MNB",
+      "decimals": 18
+    }
+  ],
+  "logoURI": "ipfs://"
+}
