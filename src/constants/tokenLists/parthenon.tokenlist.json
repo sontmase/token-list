@@ -1,0 +1,28 @@
+{
+    "name": "Parthenon Tokens",
+    "timestamp": "2024-02-28T14:58:20.339Z",
+    "version": {
+        "major": 0,
+        "minor": 0,
+        "patch": 0
+    },
+    "tokens": [
+        {
+            "logoURI": "https://assets.coingecko.com/coins/images/2518/thumb/weth.png?1628852295",
+            "chainId": 281123,
+            "address": "0x677bfee8bB414d4d8A7137771E956D4EA76A0470",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://athene.network/api/v1.0/icon/tokens/ATH.png",
+            "chainId": 281123,
+            "address": "0x913f555E9F6C7797de1754105CA44E13d1738e85",
+            "name": "Test Token",
+            "symbol": "TEST",
+            "decimals": 18
+        }
+    ],
+    "logoURI": "ipfs://"
+}

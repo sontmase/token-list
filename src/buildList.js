@@ -1,11 +1,12 @@
-const { version } = require('../package.json');
-const blastSepolia = require('./constants/tokenLists/blast-sepolia.tokenlist.json');
-const blastMainnet = require('./constants/tokenLists/blast.tokenlist.json');
+const { version } = require("../package.json");
+const blastSepolia = require("./constants/tokenLists/blast-sepolia.tokenlist.json");
+const blastMainnet = require("./constants/tokenLists/blast.tokenlist.json");
+const parthenonTestnet = require("./constants/tokenLists/parthenon.tokenlist.json");
 
 module.exports = function buildList() {
-  const parsed = version.split('.');
+  const parsed = version.split(".");
   const l1List = {
-    name: 'Monoswap Default',
+    name: "dexswap Default",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
@@ -13,9 +14,13 @@ module.exports = function buildList() {
       patch: +parsed[2],
     },
     tags: {},
-    logoURI: '',
-    keywords: ['monoswap', 'default'],
-    tokens: [...blastSepolia.tokens, ...blastMainnet.tokens]
+    logoURI: "",
+    keywords: ["dexswap", "default"],
+    tokens: [
+      ...blastSepolia.tokens,
+      ...blastMainnet.tokens,
+      ...parthenonTestnet.tokens,
+    ]
       // sort them by symbol for easy readability
       .sort((t1, t2) => {
         if (t1.chainId === t2.chainId) {
