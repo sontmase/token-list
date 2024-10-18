@@ -1,4 +1,4 @@
-const testnetTokensList = [
+{
   {
     address: "0x0000000000000000000000000000000000000000",
     name: "Ether",
@@ -32,11 +32,7 @@ const testnetTokensList = [
     icon: "https://athene.network/api/v1.0/icon/tokens/ATH.png",
     disable: false,
   },
-];
+}
 
-const mainnetTokensList = [];
 
-const tokensList =
-  process.env.NEXT_PUBLIC_NETWORK == "mainnet"
-    ? mainnetTokensList
-    : testnetTokensList;
+
